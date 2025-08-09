@@ -52,7 +52,7 @@ https://openintelwireless.github.io/itlwm/Installation.html
 
 进入BIOS，进行以下设置：
 
-![](./img/BIOS_CFG.png)
+![](/img/BIOS_CFG.png)
 
 注意：**还需要启用Resizable Bar**（启用`C.A.M. (Clever Access Memory)`和`Above 4G Decode`）
 
@@ -65,13 +65,13 @@ https://openintelwireless.github.io/itlwm/Installation.html
 
 2. 使用微PE里自带的DiskGenius，删除磁盘所有分区之后给磁盘重新分区：
 
-![](./img/PARTITION_1.png)
+![](/img/PARTITION_1.png)
 
 注意：**plist配置中打开了日志写入磁盘的flag**，所以这里的ESP分区划分得比较大。如果想获得更大的可用空间，可以修改配置关闭日志写入并只划分至1000MB。
 
 然后将剩余空间格式化为一整个分区，卷标：ToBeFormatted：
 
-![](./img/PARTITION_2.png)
+![](/img/PARTITION_2.png)
 
 3. 将之前处理好的EFI内容（包括`com.apple.recovery.boot`目录和放入了config.plist的`EFI`目录）通过DiskGenius放入ESP分区。
 
@@ -79,7 +79,7 @@ https://openintelwireless.github.io/itlwm/Installation.html
 
 1. 在OpenCore启动菜单**先按下空格键**，然后上下方向键选择`NO NAME (dmg)`选项并回车：
 
-![](./img/BOOT_MENU.png)
+![](/img/BOOT_MENU.png)
 
 2. 进入macOS Recovery之后，使用磁盘工具将之前的ToBeFormatted分区格式化成APFS格式，然后进入`重新安装 macOS Sequoia`选项完成安装。
 
