@@ -109,3 +109,25 @@ https://elitemacx86.com/threads/how-to-fix-reboot-loop-when-installing-or-updati
 白果总是更好折腾的，尤其是不需要移动的mac mini。虽然我买的都是丐版，但是只需要外接硬盘，用起来也很舒心。
 但是，我怎么也不想遗忘，当时在用着黑苹果时，那由于和Windows严重不符的操作习惯带来的厌恶感里夹杂着的带有奇怪气味的悸动。
 听说Tahoe是最后一版支持Intel的macOS时，这股悸动在加强，甚至没让我撑到Tahoe正式版发布，不过折腾的过程又一次成功磨灭了它。
+
+### 一些测试结果
+
+* GeekBench
+
+https://browser.geekbench.com/v6/cpu/13253488
+
+https://browser.geekbench.com/v6/compute/4591668
+
+https://browser.geekbench.com/v6/compute/4591690
+
+https://browser.geekbench.com/ai/v1/312443
+
+https://browser.geekbench.com/ai/v1/312447
+
+* [LuxMark](https://github.com/LuxCoreRender/LuxMark)
+
+![](/img/LUXMARK.png)
+
+* 可惜3DMark不能跑，只支持Apple Silicon
+
+![](/img/3DMARK.png)
